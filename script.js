@@ -20,6 +20,6 @@ let showStandardTime = function() {
 showStandardTime();
 
 
-document.querySelector("#timeDisplay").innerHTML = "The military time is now " + showMilitaryTime();
+document.querySelector("#timeDisplay").innerHTML = "The military time is now " + "<strong>" + showMilitaryTime() + "</strong>";
 
-document.querySelector("#standardTimeDisplay").innerHTML = "The standard time is now " + showStandardTime();
+document.querySelector("#standardTimeDisplay").innerHTML = "The standard time is now " + "<strong>"+ showStandardTime() + "</strong>";
