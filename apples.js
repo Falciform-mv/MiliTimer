@@ -14,14 +14,17 @@ let countApplesandOranges = function(a, s, t, b, apples, oranges) {
     if (a + apples[i] >= s && a + apples[i] <= t) {
       appleCount ++;
       console.log('this is apple count ' + appleCount)
-
     }
   }
 
+  return appleCount;
 
 }
 
-
 const finalAnswer = countApplesandOranges(4, 7, 10, 12, apples, oranges);
+
+document.querySelector("#appleCount").innerHTML = "There are now " + "<strong>" + finalAnswer + "</strong>" + " apples on the roof";
+
+
 
 console.log(finalAnswer)
