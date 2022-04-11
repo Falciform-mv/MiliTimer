@@ -5,4 +5,15 @@ const b = 12;
 const apples = [2, 3, -4];
 const oranges = [-3, 2];
 
-console.log(apples);
+
+let countApplesandOranges = function(a, s, t, b, apples, oranges) {
+  console.log("this is within the function")
+  
+
+
+}
+
+
+const finalAnswer = countApplesandOranges(4, 7, 10, 12, apples, oranges);
+
+console.log(finalAnswer)
