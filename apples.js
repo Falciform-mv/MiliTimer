@@ -5,3 +5,4 @@ const b = 12;
 const apples = [2, 3, -4];
 const oranges = [-3, 2];
 
+console.log(apples);
